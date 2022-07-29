@@ -59,8 +59,8 @@ const checkInOut = async () => {
     IN_OR_OUT = "out";
   }
 
-    console.log("calling to my bot telegram ...............");
-    console.log("bot said :");
+  console.log("calling to my bot telegram ...............");
+  console.log("bot said :");
 
   try {
     const browser = await puppeteer.launch({
@@ -139,6 +139,6 @@ app.listen(PORT, () => {
     await checkInOut();
     console.log(".......................end job");
   });
-  // checkInOut();
   console.log("server is running with port : " + PORT);
+  // checkInOut();
 });
